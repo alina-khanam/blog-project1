@@ -1,0 +1,26 @@
+/* reset code and common starts here  */
+:root{
+    --primary-color:green;
+    --secondary-color:rgb(128, 0, 32);
+    --padding:0.5rem;
+    --transition:all 0.3s;
+    --border-radius: 0.6rem;
+    box-shadow: 0.1rem 0.2rem 0.8rem gray;
+
+}
+*{
+    box-sizing: border-box;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+image{
+    width: 100%;
+    height: auto;
+}
+/* reset code and common ends here  */
